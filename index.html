@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rekomendasi Film - White Chicks</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header{
+      background: linear-gradient(90deg, #ff7eb3, #ff758c);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1{
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p{
+      font-size: 18px;
+    }
+
+    .container{
+      width: 90%;
+      max-width: 1000px;
+      margin: 40px auto;
+    }
+
+    .movie-card{
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .movie-card img{
+      width: 350px;
+      object-fit: cover;
+    }
+
+    .movie-info{
+      flex: 1;
+      padding: 30px;
+    }
+
+    .movie-info h2{
+      font-size: 36px;
+      margin-bottom: 15px;
+      color: #ff4f81;
+    }
+
+    .movie-info p{
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    .rating{
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .btn{
+      display: inline-block;
+      padding: 12px 24px;
+      background: #ff4f81;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .btn:hover{
+      background: #e63e6f;
+    }
+
+    footer{
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
+    }
+
+    @media(max-width: 768px){
+      .movie-card{
+        flex-direction: column;
+      }
+
+      .movie-card img{
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🎬 Rekomendasi Film</h1>
+    <p>Film komedi legendaris yang wajib ditonton!</p>
+  </header>
+
+  <div class="container">
+    <div class="movie-card">
+      
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/3c/White_chicks.jpg" alt="White Chicks Poster">
+
+      <div class="movie-info">
+        <h2>White Chicks (2004)</h2>
+
+        <div class="rating">
+          ⭐ 7.0/10
+        </div>
+
+        <p>
+          <strong>White Chicks</strong> adalah film komedi terkenal yang dibintangi oleh 
+          Shawn Wayans dan Marlon Wayans. Film ini menceritakan dua agen FBI yang menyamar 
+          menjadi sosialita wanita demi menyelesaikan sebuah kasus.
+        </p>
+
+        <p>
+          Film ini terkenal karena humor absurd, scene ikonik, dan quote lucu yang masih viral sampai sekarang.
+          Cocok buat ditonton bareng teman atau keluarga saat ingin cari hiburan.
+        </p>
+
+        <a href="https://www.imdb.com/title/tt0381707/" target="_blank" class="btn">
+          Lihat Detail Film
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Website Rekomendasi Film | Dibuat dengan HTML & CSS
+  </footer>
+
+</body>
+</html>
